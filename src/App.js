@@ -8,7 +8,6 @@ function App() {
   const client = new ApolloClient({
     uri: "https://graphql-pokemon2.vercel.app/",
   });
-  console.log(client);
   return (
     <ApolloProvider client={client}>
       <main>
